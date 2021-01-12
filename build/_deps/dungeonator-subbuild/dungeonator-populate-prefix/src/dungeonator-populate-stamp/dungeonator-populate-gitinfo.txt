@@ -1,3 +1,0 @@
-repository='https://github.com/BenjaminHinchliff/dungeonator.git'
-module=''
-tag='origin'
