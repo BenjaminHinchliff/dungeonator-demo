@@ -33,15 +33,15 @@ void renderLoop(void* voidCtx) {
   SDL_Rect src = {
     .x = 0,
     .y = 0,
-    .w = 16,
-    .h = 16,
+    .w = TILE_SIZE,
+    .h = TILE_SIZE,
   };
 
   SDL_Rect dest = {
     .x = 0,
     .y = 0,
-    .w = 16,
-    .h = 16,
+    .w = TILE_SIZE,
+    .h = TILE_SIZE,
   };
 
   for (int y = 0; y < dungeon->height; ++y) {
